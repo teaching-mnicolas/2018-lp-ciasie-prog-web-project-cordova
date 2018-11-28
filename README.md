@@ -18,8 +18,10 @@ Membres du projet :
     - via HTTPS : git clone https://github.com/teaching-mnicolas/2018-lp-ciasie-prog-web-project-cordova.git
 
 * Une fois le projet cloné, il vous suffit de vous rendre dans le dossier du projet, puis :
-   - il vous suffit de taper la commande suivante pour lancer l'application :
+   - il vous suffit de taper les commandes suivantes pour lancer l'application :
 ```
+    cordova platform add android (pour ajouter la plateforme Android au projet)
+    codrova build (pour construire le projet)
     cordova run android --device (si votre téléphone Android est branché par USB à votre ordinateur)
     cordova emulate android (si vous voulez lancez un émulateur Android)
 ```
